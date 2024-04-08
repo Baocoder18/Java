@@ -3,14 +3,10 @@ package Object;
 public class Student {
     private String id;
     String name;
-    private String email;
-    private int age;
 
-    public Student(String id, String name, String email, int age) {
+    public Student(String id, String name) {
         this.id = id;
-        this.name = name;
-        this.email = email;
-        this.age = age;
+        this.name = name;   
     }
     public Student(String id) {
         this.id = id;
