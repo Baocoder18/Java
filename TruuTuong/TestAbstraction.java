@@ -1,3 +1,5 @@
+package TruuTuong;
+
 abstract class Shape {
     abstract void draw();
 }

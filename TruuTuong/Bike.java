@@ -1,3 +1,5 @@
+package TruuTuong;
+
 abstract class Bike {
     abstract void run();
 }
