@@ -16,7 +16,7 @@ public class ArrayListExample1 {
         while (itr.hasNext()) {
             System.out.println(itr.next() + ",");
         }
-        
+            
         //Show list through for-each
         System.out.println();
         for (String obj : list) {

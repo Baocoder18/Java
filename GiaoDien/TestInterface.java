@@ -3,7 +3,7 @@ package GiaoDien;
 interface Printable{
     void print();
 }
-interface Showable{
+interface Showable extends Printable{
     void show();
 }
 public class TestInterface implements Showable{
