@@ -18,15 +18,14 @@ public class ArrayListExample1 {
         }
             
         //Show list through for-each
-        System.out.println();
+        System.out.println("--------------");
         for (String obj : list) {
             System.out.println(obj + ",");
         }
 
         //Show list through index
-        System.out.println();
-        int size = list.size();
-        for (int i = 0; i < size; i++) {
+        System.out.println("--------------");
+        for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i) + ",");
         }
     }

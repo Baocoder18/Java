@@ -2,7 +2,7 @@ package GiaoDien;
 
 interface printable{
     void print();
-}
+}   
 public class A6 implements printable{
     public void print(){
         System.out.println("Hello");
